@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarjetas con Volteo</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+  <div class="background-container"></div>
+
+  <!-- CABECERA -->
+  <header>
+    <div class="h-2.5 w-full flex">
+      <div class="flex-1 barra-azul"></div>
+      <div class="flex-1 barra-verde"></div>
+      <div class="flex-1 barra-amarilla"></div>
+      <div class="flex-1 barra-rosada"></div>
+      <div class="flex-1 barra-celeste"></div>
+      <div class="flex-1 barra-roja"></div>
+    </div>
+
+    <div class="py-6 mt-4 text-center text-white relative">
+      <img src="img/logo MVCS.png" alt="Logo" class="h-12 absolute left-4 top-[40%] transform -translate-y-1/2" />
+      <h1 class="text-4xl md:text-5xl font-bold italic tracking-wide">
+        OFICINA DE MONITOREO
+      </h1>
+      <div class="mt-2 inline-block bg-red-600 px-4 py-1 transform -skew-x-12">
+        <span class="inline-block skew-x-12 text-white font-semibold text-3xl">
+          REPOSITORIO DE TABLEROS DE MONITOREO Y SEGUIMIENTO</span>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- TARJETAS -->
+  <main class="flex items-center justify-center p-6 mt-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl w-full">
+
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiN2ZiMTMyZDItMzk3NC00ZThjLTk4MGQtZGZlNDQ3ODUyZTJiIiwidCI6IjhhZmMxYzZhLThjOWYtNDA5My1iMDU1LWU0MTdiMjA5M2IwYyIsImMiOjR9"
+        target="_blank" class="block">
+        <div class="flip-card">
+          <div class="flip-inner shadow-lg">
+            <div class="flip-front shadow-lg text-center">
+              <img src="img/en-construccion.png" alt="" class="w-20 h-20 mb-3" />
+              <h3 class="font-bold text-2xl">Obras paralizadas</h3>
+            </div>
+            <div class="flip-back shadow-lg text-center p-4">
+              <h4 class="font-bold text-2xl mb-2">Obras paralizadas</h4>
+              <p class="text-base">Obras paralizadas a cargo del MVCS y los gobiernos subnacionales, el cual contiene
+                información histórica, indicadores y la meta de reactivación del presente año.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiYmUwZGRjMmMtOGVmOC00YWNmLTlmZWUtMjgwYTI2OTg0ZjM4IiwidCI6IjhhZmMxYzZhLThjOWYtNDA5My1iMDU1LWU0MTdiMjA5M2IwYyIsImMiOjR9"
+        target="_blank" class="block">
+        <div class="flip-card">
+          <div class="flip-inner shadow-lg">
+            <div class="flip-front shadow-lg text-center">
+              <img src="img/dar-dinero.png" alt="" class="w-20 h-20 mb-3" />
+              <h3 class="font-bold text-2xl">Transferencias</h3>
+            </div>
+            <div class="flip-back shadow-lg text-center p-4">
+              <h4 class="font-bold text-2xl mb-2">Transferencias</h4>
+              <p class="text-base">Avance físico de las inversiones a cargo de los gobiernos subnacionales que
+                recibieron transferencias financieras y presupuestales. Contiene información histórica e indicadores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiZDRjYWIzNjAtNjcyYS00MjcxLTljZTEtMTE1N2Q3YTU3MDQ2IiwidCI6IjhhZmMxYzZhLThjOWYtNDA5My1iMDU1LWU0MTdiMjA5M2IwYyIsImMiOjR9"
+        target="_blank" class="block">
+        <div class="flip-card">
+          <div class="flip-inner shadow-lg">
+            <div class="flip-front shadow-lg text-center">
+              <img src="img/monitor.png" alt="" class="w-20 h-20 mb-3" />
+              <h3 class="font-bold text-2xl">PRESET</h3>
+            </div>
+            <div class="flip-back shadow-lg text-center p-4">
+              <h4 class="font-bold text-2xl mb-2">PRESET</h4>
+              <p class="text-base">Plataforma estratégica de Gobierno Electrónico orientada en simplificar y mejorar las
+                evaluaciones de proyectos.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiN2UzZDZiMTYtNjMyYS00ZmFhLTk0NTEtNDI5MTBjNTZhNzllIiwidCI6IjhhZmMxYzZhLThjOWYtNDA5My1iMDU1LWU0MTdiMjA5M2IwYyIsImMiOjR9"
+        target="_blank" class="block">
+        <div class="flip-card">
+          <div class="flip-inner shadow-lg">
+            <div class="flip-front shadow-lg text-center">
+              <img src="img/camion-cisterna (4).png" alt="" class="w-20 h-20 mb-3" />
+              <h3 class="font-bold text-2xl">EPS</h3>
+            </div>
+            <div class="flip-back shadow-lg text-center p-4">
+              <h4 class="font-bold text-2xl mb-2">EPS</h4>
+              <p class="text-base">Avance físico y financiero de la distribución de agua en camión cisterna dirigido a
+                la población ubicada en zona urbana de pobreza y pobreza extrema.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiOWFkZGExYmEtYzZlZS00MjVhLTgzMTUtNDIzZDQ4OWQyMTQxIiwidCI6IjhhZmMxYzZhLThjOWYtNDA5My1iMDU1LWU0MTdiMjA5M2IwYyIsImMiOjR9"
+        target="_blank" class="block">
+        <div class="flip-card">
+          <div class="flip-inner shadow-lg">
+            <div class="flip-front shadow-lg text-center">
+              <img src="img/obrero.png" alt="" class="w-20 h-20 mb-3" />
+              <h3 class="font-bold text-2xl">Inversiones Directas</h3>
+            </div>
+            <div class="flip-back shadow-lg text-center p-4">
+              <h4 class="font-bold text-2xl mb-2">Inversiones Directas</h4>
+              <p class="text-base">Avance físico de las inversiones a cargo del MVCS, incluyendo las metas priorizadas
+                para el presente ejercicio presupuestal.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiZjUzMzUyMDgtMjlmNi00ZmVkLTliZDEtMGIzNTQxMTk2NzkwIiwidCI6IjhhZmMxYzZhLThjOWYtNDA5My1iMDU1LWU0MTdiMjA5M2IwYyIsImMiOjR9"
+        target="_blank" class="block">
+        <div class="flip-card">
+          <div class="flip-inner shadow-lg">
+            <div class="flip-front shadow-lg text-center">
+              <img src="img/reunion-de-la-junta.png" alt="" class="w-20 h-20 mb-3" />
+              <h3 class="font-bold text-2xl">Mesas de asistencia Técnica</h3>
+            </div>
+            <div class="flip-back shadow-lg text-center p-4">
+              <h4 class="font-bold text-2xl mb-2">Mesas de asistencia Técnica</h4>
+              <p class="text-base">Contiene información sobre la MAT 2024 y 2025-I y el cronograma de futuras mesas.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiNTZlNmU2ZDItYmE3My00OTQzLWE3ZTMtYWZjYjExZWIyOTMzIiwidCI6IjhhZmMxYzZhLThjOWYtNDA5My1iMDU1LWU0MTdiMjA5M2IwYyIsImMiOjR9"
+        target="_blank" class="block">
+        <div class="flip-card">
+          <div class="flip-inner shadow-lg">
+            <div class="flip-front shadow-lg text-center">
+              <img src="img/conferencia.png" alt="" class="w-20 h-20 mb-3" />
+              <h3 class="font-bold text-2xl">MAT presupuestal</h3>
+            </div>
+            <div class="flip-back shadow-lg text-center p-4">
+              <h4 class="font-bold text-2xl mb-2">MAT presupuestal</h4>
+              <p class="text-base">Mesas de asistencia técnica para el asesoramiento y acompañamiento a los gobiernos
+                subnacionales - Anexo VIII - IX.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiYzMwYTNkMTgtYjU2YS00YzAxLWJhZTktNmM2OTRhZDQ2M2U1IiwidCI6IjhhZmMxYzZhLThjOWYtNDA5My1iMDU1LWU0MTdiMjA5M2IwYyIsImMiOjR9"
+        target="_blank" class="block">
+        <div class="flip-card">
+          <div class="flip-inner shadow-lg">
+            <div class="flip-front shadow-lg text-center">
+              <img src="img/pared-de-ladrillo.png" alt="" class="w-20 h-20 mb-3" />
+              <h3 class="font-bold text-2xl">VRAEM</h3>
+            </div>
+            <div class="flip-back shadow-lg text-center p-4">
+              <h4 class="font-bold text-2xl mb-2">VRAEM</h4>
+              <p class="text-base">Proyectos priorizados en el VRAEM para fortalecer el desarrollo local y mejorar los
+                servicios y calidad de vida.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </main>
+</body>
+
+</html>

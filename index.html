@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tableros de Monitoreo</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilos.css" />
 </head>
 
 <body class="bg-gray-100 min-h-screen">
@@ -23,17 +23,22 @@
       <div class="flex-1 barra-roja"></div>
     </div>
 
-    <div class="py-6 mt-4 text-center text-white relative">
-      <img src="img/logo MVCS.png" alt="Logo" class="h-12 absolute left-4 top-[40%] transform -translate-y-1/2" />
-      <h1 class="text-4xl md:text-5xl font-bold italic tracking-wide">
+    <div class="py-6 mt-3 text-center text-white relative max-w-7xl mx-auto px-4">
+      <!-- Logo -->
+      <img src="img/logo MVCS.png" alt="Logo"
+        class="hidden sm:block h-10 sm:h-12 absolute left-2 sm:left-4 top-[40%] transform -translate-y-1/2" />
+
+      <!-- Título -->
+      <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-black">
         OFICINA DE MONITOREO
       </h1>
-      <div class="mt-2 inline-block bg-red-600 px-4 py-1 transform -skew-x-12">
-        <span class="inline-block skew-x-12 text-white font-semibold text-3xl">
-          REPOSITORIO DE TABLEROS DE MONITOREO Y SEGUIMIENTO</span>
+      <!-- Subtítulo -->
+      <div class="mt-2 inline-block bg-red-600 px-2 sm:px-4 py-1 transform -skew-x-12">
+        <span class="inline-block skew-x-12 text-white font-semibold text-sm sm:text-base md:text-xl lg:text-2xl">
+          REPOSITORIO DE TABLEROS DE MONITOREO Y SEGUIMIENTO
+        </span>
       </div>
     </div>
-
   </header>
 
   <!-- TARJETAS -->
